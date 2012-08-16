@@ -9,6 +9,12 @@
 
   <name>PigBAT</name>
   <url>http://maven.apache.org</url>
+  <repositories>   
+    <repository>
+      <id>Cloudera Maven Repository</id>
+      <url>https://repository.cloudera.com/content/repositories/releases/</url>   
+    </repository>
+  </repositories>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
